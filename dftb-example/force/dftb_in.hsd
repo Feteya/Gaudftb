@@ -1,0 +1,42 @@
+Geometry = GenFormat {
+    <<<"geometry.gen"
+    }
+
+Hamiltonian = DFTB {
+    SCC = Yes
+    MaxSCCIterations = 500
+    SCCTolerance = 1e-6
+    MaxAngularMomentum={ 
+      	C  = "p"
+	    H  = "s"
+    }
+    Charge = 0
+    Eigensolver = QR {}
+    SlaterKosterFiles = Type2FileNames {
+	Prefix = "/home/zxli/Documents/Softwares/dftbplus-18.2.x86_64-linux/skfs/3ob-3-1/"
+	Separator = "-"
+	Suffix = ".skf"
+	}
+    ThirdOrderFull = Yes
+    HubbardDerivs = {
+	    C  = -0.1492
+        H  = -0.1857
+        }
+    HCorrection = H5 {}
+    }
+        
+Analysis = {
+    CalculateForces = Yes
+    WriteBandOut = No
+    MullikenAnalysis = No
+    }
+	
+ParserOptions = {
+    ParserVersion = 6
+    WriteHSDInput = Yes
+}
+
+Options = {
+  WriteDetailedOut = Yes
+  WriteResultsTag = Yes
+}

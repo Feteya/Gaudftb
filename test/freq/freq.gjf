@@ -1,0 +1,5 @@
+%chk=claisen.chk
+#p freq geom=allcheck external='python3 Gaudftb.py'
+
+freq
+

@@ -1,0 +1,6 @@
+%chk=claisen.chk
+#p irc=(calcfc,maxpoints=10) geom=allcheck external='python3 Gaudftb.py'
+
+irc
+
+
