@@ -1,0 +1,61 @@
+ Fermi distribution function
+
+Geometry optimization step: 12
+
+
+********************************************************************************
+ iSCC Total electronic   Diff electronic      SCC error    
+    4   -0.31748328E+01   -0.58575367E-12    0.10590862E-08
+********************************************************************************
+
+Coordinates of moved atoms (au):
+    1      2.17416994     -1.17580793      0.30711640
+    2      3.28473859     -2.89156443      0.31585275
+    3      2.99518547      0.17450935      1.60336022
+    4      2.15527392     -0.38625493     -1.57795521
+    5      0.26078951     -1.60035637      0.88683892
+
+COMPONENT = q
+
+Eigenvalues (H) and fillings (e)
+       1      -0.57003   2.00000
+       2      -0.33068   2.00000
+       3      -0.33066   2.00000
+       4      -0.33065   2.00000
+       5       0.37717   0.00000
+       6       0.37723   0.00000
+       7       0.37731   0.00000
+       8       0.66571   0.00000
+
+Eigenvalues (eV) and fillings (e)
+       1       -15.511   2.00000
+       2        -8.998   2.00000
+       3        -8.998   2.00000
+       4        -8.998   2.00000
+       5        10.263   0.00000
+       6        10.265   0.00000
+       7        10.267   0.00000
+       8        18.115   0.00000
+
+Fermi level:                         0.0232559106 H            0.6328 eV
+Band energy:                        -3.1240461732 H          -85.0096 eV
+TS:                                  0.0000000000 H            0.0000 eV
+Band free energy (E-TS):            -3.1240461732 H          -85.0096 eV
+Extrapolated E(0K):                 -3.1240461732 H          -85.0096 eV
+
+Energy H0:                          -3.1757795168 H          -86.4174 eV
+Energy SCC:                          0.0012340653 H            0.0336 eV
+Total Electronic energy:            -3.1748328032 H          -86.3916 eV
+Repulsive energy:                   -0.0546927559 H           -1.4883 eV
+Total energy:                       -3.2295255591 H          -87.8799 eV
+Total Mermin free energy:           -3.2295255591 H          -87.8799 eV
+
+SCC converged
+
+Full geometry written in geo_end.{xyz|gen}
+
+Dipole moment:   -0.00001451   -0.00001530   -0.00001571 au
+Dipole moment:   -0.00003688   -0.00003889   -0.00003992 Debye
+
+Geometry converged
+
